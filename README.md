@@ -14,3 +14,14 @@
   
 3 - cBuscaSolucaoVetorPosicionamentoValido  
   Neste caso iremos colocar posicao a posicao validando antes de colocar a próxima peça.  
+
+```flow
+st=>start: start
+op=>operation: SetVetor[coluna] = linha
+cond=>condition: Intercepta?
+e=end
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
