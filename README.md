@@ -10,3 +10,7 @@
   Em matriz 4x4 temos 4 rainhas e 16 possibilidades de posicionamento.
   Sabendo que nenhuma resposta valida terá duas rainhas em uma mesma linha ou coluna, podemos aprimor a definição.
   Em matriz 4x4 temos 4 rainhas e 4 possibilidade de posicionamento, sendo que rainha um representa coluna um  e só precisamos saer a linha de posicionamento.
+  Os resultados possiveis são iguais a 4^4 - 256 
+  
+3 - cBuscaSolucaoVetorPosicionamentoValido
+  Neste caso iremos colocar posicao a posicao validando antes de colocar a próxima peça.
