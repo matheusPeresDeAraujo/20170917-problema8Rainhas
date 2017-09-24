@@ -1,10 +1,6 @@
 package aBuscaSolucaoMatriz;
 
 public class Main {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		//Primeiramente crio uma matriz informado que tera a base 4.
